@@ -14,7 +14,7 @@
             height: 100%;
         }
         header {
-            background-color: #586A6A;
+            background-color: black;
             padding: 15px;
             color: white;
             text-align: center;
@@ -35,19 +35,26 @@
             background-position: center;
             background-size: cover;
             position: absolute;
-            left: 100px;
-            top: 100px;
+           
             
         }
         
         .login-box {
             border: 1px solid grey;
-            width: 500px;
-            width: 500px;
-            padding: 20px;
+            width: 400px;
+            padding: 20px 50px;
+            box-sizing: border-box;
             text-align: center; 
-            background: rgba(255,255,255,0.7);
-            border-radius: 5px;
+            /*background: rgba(255,255,255,0.3); */
+            background: white;
+            border-radius: 10px;
+        }
+        .login-box h1 {
+            text-align: left;
+        }
+        .login-box a {
+            font-weight: bold;
+            color: black;
         }
         input[type=text] {
         padding: 10px;
@@ -60,7 +67,7 @@
         }
         .primary-button {
         color: white;
-        background-color: lightgreen;
+        background-color: #006D77;
         border: none;
         padding: 10px 20px;
 
@@ -79,13 +86,15 @@
     </header>
     <main>
         <div class="login-box-container">
+            
             <div class="login-box" >
+                <h1> Login</h1>
                 <form>
                     <input type="text" placeholder="Username">
                     <input type="text" placeholder="Password">
                     <button type="submit" class="primary-button login-button">Login</button>
                 </form>
-                <a href="#">Register Now</a>
+                <a href="register.html">Register Now</a>
             </div>
         </div>
     </main>
