@@ -1,4 +1,5 @@
-﻿body {
+﻿/* General */
+body {
             margin: 0;
             display: flex;
             flex-direction: column;
@@ -16,6 +17,17 @@
             flex-grow: 1;
             
         }
+         input[type=text], input[type=password], input[type=email]{
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        width: 90%;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        }
+
+        /* Login-box */
+
         .login-box-container{
             display: flex;
             justify-content: center;
@@ -25,9 +37,7 @@
             background: url('./images/login-background.jpg');
             background-position: center;
             background-size: cover;
-            position: absolute;
-           
-            
+            position: absolute;    
         }
         
         .login-box {
@@ -47,24 +57,25 @@
             font-weight: bold;
             color: black;
         }
-        input[type=text], input[type=password], input[type=email]{
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid grey;
-        width: 90%;
-        margin-bottom: 10px;
-        margin-right: 10px;
-        
-        }
+       
         .primary-button {
         color: white;
         background-color: #006D77;
         border: none;
         padding: 10px 20px;
-
         }
 
         .login-button{
             margin: auto;
             display: block;
+        }
+        /* Home */
+        .home-main {
+            display: flex;
+            justify-content: center;
+        }
+        .timeline-container {
+            background-color: white;
+            width: 100%;
+            max-width: 800px;
         }
