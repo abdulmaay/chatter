@@ -13,10 +13,19 @@ body {
             font-size: 24px;
             font-family: 'Pacifico', cursive;
         }
-        main{
+        main {
             flex-grow: 1;
+            background: url('./images/login-background.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 900px;
+            width: 100%;
+            font-size: 24px;
+            font-family: 'Pacifico', cursive;
+
+            }
             
-        }
          input[type=text], input[type=password], input[type=email]{
         padding: 10px;
         border-radius: 5px;
@@ -33,12 +42,7 @@ body {
             justify-content: center;
             align-items:center;
             height: 100%;
-            width: 100%;
-            background: url('./images/login-background.jpg');
-            background-position: center;
-            background-size: cover;
-            position: absolute;    
-        }
+         }
         
         .login-box {
             border: 1px solid grey;
@@ -83,7 +87,8 @@ body {
             display: flex;
         }
         .chatters-feed{
-            flex-grow:2;
+            flex-grow:4;
+            border-right:1px solid lightgrey;
         }
         .recent-users-feed{
             flex-grow:1;
