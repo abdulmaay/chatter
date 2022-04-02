@@ -24,7 +24,7 @@ body {
             font-size: 24px;
             font-family: 'Pacifico', cursive;
 
-            }
+        }
             
          input[type=text], input[type=password], input[type=email]{
         padding: 10px;
@@ -87,9 +87,23 @@ body {
             display: flex;
         }
         .chatters-feed{
-            flex-grow:4;
+            flex-grow: 4;
             border-right:1px solid lightgrey;
         }
         .recent-users-feed{
             flex-grow:1;
+            padding: 20px;
+        }
+
+        /*chatter */
+
+        .chatter {
+            display: flex;
+        }
+        .chatter .profile-pic {
+            font-size: 50px;
+            margin-right: 20px;
+        }
+        .chatter p {
+            margin-top:0;
         }
