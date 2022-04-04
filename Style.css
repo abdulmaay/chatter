@@ -67,6 +67,7 @@ body {
         background-color: #006D77;
         border: none;
         padding: 10px 20px;
+        text-decoration: none;
         }
 
         .login-button{
@@ -106,4 +107,18 @@ body {
         }
         .chatter p {
             margin-top:0;
+        }
+        .chatter .metadata {
+            font-size: 14px;
+            color: grey
+        }
+
+        /* new users */
+        .new-user {
+            display: flex;
+            align-items: center;
+        }
+        .new-user .profile-pic {
+            font-size: 30px;
+            margin-right: 10px;
         }
